@@ -52,7 +52,7 @@ var timerInterval, time, score;
       this.paused = false;
       this.guess = null;
       this.binding();
-      time = 20;
+      time = 60;
       score = 0;
       $('#timer').html(time < 10 ? `0${time}` : time);
       timerInterval = setInterval(() => {
